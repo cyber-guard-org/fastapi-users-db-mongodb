@@ -82,9 +82,9 @@ class MongoDBUserDatabase(BaseUserDatabase[UD]):
         if not self.initialized:
             await self.collection.create_index("id", unique=True)
             await self.collection.create_index("email", unique=True)
-            await self.collection.create_index(
-                "email",
-                name="case_insensitive_email_index",
-                collation=self.email_collation,
-            )
+            # await self.collection.create_index(
+            #     "email",
+            #     name="case_insensitive_email_index",
+            #     collation=self.email_collation,
+            # )
             self.initialized = True
