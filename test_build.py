@@ -2,7 +2,7 @@
 import sys
 
 try:
-    from fastapi_users_db_mongodb import MongoDBUserDatabase
+    from fastapi_users_db_mongodb_azure import MongoDBUserDatabase
 except:
     sys.exit(1)
 

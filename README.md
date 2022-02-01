@@ -1,6 +1,10 @@
 # FastAPI Users - Database adapter for MongoDB
 
 <p align="center">
+  This is a fork of the driver to deploy with CosmosDB Mongo Driver
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/frankie567/fastapi-users/master/logo.svg?sanitize=true" alt="FastAPI Users">
 </p>
 

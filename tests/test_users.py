@@ -4,7 +4,7 @@ import pymongo.errors
 import pytest
 from motor.motor_asyncio import AsyncIOMotorClient
 
-from fastapi_users_db_mongodb import MongoDBUserDatabase
+from fastapi_users_db_mongodb_azure import MongoDBUserDatabase
 from tests.conftest import UserDB, UserDBOAuth
 
 

@@ -8,7 +8,7 @@ from fastapi_users.authentication.strategy.db.models import BaseAccessToken
 from motor.motor_asyncio import AsyncIOMotorClient
 from pydantic import UUID4
 
-from fastapi_users_db_mongodb.access_token import MongoDBAccessTokenDatabase
+from fastapi_users_db_mongodb_azure.access_token import MongoDBAccessTokenDatabase
 
 
 class AccessToken(BaseAccessToken):
